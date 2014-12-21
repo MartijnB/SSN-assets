@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Enveloplns:S="http://schemas.xmp.orgRsoap/envel:Body><S:Fault><lt><faultcode>S:Server</faultcode><fng>Eret.ret.</faultsultstrdy></S:Env:EnvST_UShibbolebolebolerh.sso/S

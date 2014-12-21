@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Sta@us
+CONTENT_TYPE=x-www-form-urlencoded
+
+test

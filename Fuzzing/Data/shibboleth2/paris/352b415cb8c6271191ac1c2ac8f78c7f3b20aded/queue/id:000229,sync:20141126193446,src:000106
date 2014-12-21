@@ -1,0 +1,7 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xSOAP
+CONTENT_TYPE=tfact/SOAP
+CONTENP
+CONTENT_TYPE=text/xml
+
+<S:Envevelope/"><S:Fault><faultequest.<:Fault></S:Body>="</S:Fault></S:ult></S:Body></SBody></S:Edy></S:Edy></S:Edy></S:Edy></S:Edy></S:Edy></S:Edy></S:Edy></S:Envelope>

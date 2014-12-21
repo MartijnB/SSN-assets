@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=txml
+
+<S:lope xmlns:S="http://schemas.xmlsoap.org/soapJenvelovelope/"><S:Body><S:Fault><faultcode>S:Server</faultcode>ltstring>Eret.</t.</t.</faultstrdy><dy></S:Enveldy><dy></S:Envelope>

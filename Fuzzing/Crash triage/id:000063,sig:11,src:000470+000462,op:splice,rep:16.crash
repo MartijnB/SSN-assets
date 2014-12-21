@@ -1,0 +1,50 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 4814)]
+[New Thread 0x7ffff523f700 (LWP 4816)]
+
+Program received signal SIGSEGV, Segmentation fault.
+_int_malloc (av=0x7ffff6924620 <main_arena>, bytes=2467) at malloc.c:3646
+3646	malloc.c: No such file or directory.
+#0  _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=2467) at malloc.c:3646
+#1  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=2467) at malloc.c:2858
+#2  0x00007ffff66019ca in __GI___strdup (s=0x805730 '\t' <repeats 143 times>, "1CTUdBMVVFQ2d3TVUxVlNSbTVsZENCQ0xsWXVNUk13RVFZRFZRUUxEQXB"...) at strdup.c:42
+#3  0x00007ffff7b3f668 in shibsp::DDF::string (this=0x7fffffffbe20, val=0x805730 '\t' <repeats 143 times>, "1CTUdBMVVFQ2d3TVUxVlNSbTVsZENCQ0xsWXVNUk13RVFZRFZRUUxEQXB"..., copyit=<optimized out>, safe=<optimized out>) at remoting/impl/ddf.cpp:365
+#4  0x00007ffff7a4e88a in shibsp::RemotedHandler::wrap (this=<optimized out>, request=..., headers=0x7fffffffbed0, certs=<optimized out>) at handler/impl/RemotedHandler.cpp:368
+#5  0x00007ffff7a04656 in shibsp::AssertionConsumerService::run (this=0x6ee9d0, request=..., isHandler=<optimized out>) at handler/impl/AssertionConsumerService.cpp:125
+#6  0x00007ffff7965ca1 in shibsp::ServiceProvider::doHandler (this=<optimized out>, request=...) at ServiceProvider.cpp:667
+#7  0x0000000000404aac in main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:462
+#8  0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#9  0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x7ffff6003135	140737320595765
+rbx            0x7ffff6924620	140737330169376
+rcx            0x33343d4854474e45	3689641375584177733
+rdx            0x7ffff6924c78	140737330171000
+rsi            0x3005000a	805634058
+rdi            0x3	3
+rbp            0x9b0	0x9b0
+rsp            0x7fffffffbc90	0x7fffffffbc90
+r8             0x33343d4854474e40	3689641375584177728
+r9             0x7ffff6924670	140737330169456
+r10            0x11	17
+r11            0x7ffff66dd5d0	140737327781328
+r12            0x69a840	6924352
+r13            0x33343d4854474490	3689641375584175248
+r14            0x9a3	2467
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65fa174	0x7ffff65fa174 <_int_malloc+1972>
+eflags         0x10206	[ PF IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 4769] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

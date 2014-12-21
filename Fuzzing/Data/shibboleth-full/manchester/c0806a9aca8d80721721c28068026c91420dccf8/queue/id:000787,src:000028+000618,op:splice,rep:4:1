@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&3&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="mlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Server</fauS:EnvST_URI=/ShiS:EnvST_URI=/ShiS:EnvST_URI=/ShiS:EnvST_URI=/Shi

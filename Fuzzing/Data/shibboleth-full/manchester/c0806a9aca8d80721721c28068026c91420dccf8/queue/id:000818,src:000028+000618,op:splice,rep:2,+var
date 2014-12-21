@@ -1,0 +1,6 @@
+REQUEST_URI=&&&&&eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Env&&&&&&&&&&&&&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Arl
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:SerURI=/Shibbolerh.sso/StatURI=/ShiURI=/Shibbolerh.sso/StatURI=/ShiURI=/Shibbolerh.sso/StatURI=/Shi

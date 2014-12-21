@@ -1,0 +1,18 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Env&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Server</faultolerh.sso/StatURI=/Shibbold
+
+t
+
+olerh.sso/StatURI=/Shibbold
+
+t
+
+olerh.sso/StatURI=/Shibbold
+
+t
+

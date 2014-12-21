@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Scatus
+CONTENT_TYPE=x-www-form-uréencoded
+
+test

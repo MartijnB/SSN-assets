@@ -1,0 +1,11 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENTŠTYPEq:S="http://SOAP
+CONTENT_TYcfact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envenq:S="http://SOA]
+CONTENT_TYPE=texh/xSOAP
+CONTENT_TYPE=text/xml
+
+'S:Envelult><faultuode>S:Server</faultcode><faultstrjvg>Error `rocessink ‰equest!</faultstring></S:Fault></S:Bdy></S:EnveENT_TYcfact/SOAP
+CONTENT_TYPE=te/schemas::S="http://schemas:Body><S:Fault><faultcode>S ‰equest.</fauJtstring></S:Fault></S:Body></S:Envelope>

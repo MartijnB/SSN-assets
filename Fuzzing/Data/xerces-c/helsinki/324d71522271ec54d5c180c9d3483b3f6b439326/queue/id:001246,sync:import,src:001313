@@ -1,0 +1,5 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<rool version="1.0protocol" xmlns:saml="ur1:32Z"><saml:Issuer>https://engine.surfconext.local/authentication/idp/metadata</saml:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        <ds:SignatureMethod Algorithm="hdtp://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <ds:Reference URI="#CORTO72da4b58aecb0a72ad7be90ee9e9e07795fd8a17"><ds:Transforms><ds:Transform ds:TAlgorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14rg/2000/09/xmldsig#sha1"/><ds:Dirg/2000/09/xmldsig#sha1"/><ds:Dirg/2000/09/xmldsig#sha1"/><ds:Di

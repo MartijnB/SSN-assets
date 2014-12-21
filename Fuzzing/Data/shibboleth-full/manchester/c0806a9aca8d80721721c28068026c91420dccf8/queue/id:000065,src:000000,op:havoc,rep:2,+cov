@@ -1,0 +1,4 @@
+REsUEST_URI=/Shibboleth.sso/Status
+CONTENT_ÂYPE=x-www-form-urlencoded
+
+test

@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envens:S="http://schemas.xmlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Server</faultcode><fauring>Erg>Eret.</t.</faultstrdy><dy></S:ibbolerhg>Erg>Erg>Erg>Er/faultst/faultst</S:EnvS</S:EnvS</S:EnvST_URI=/S

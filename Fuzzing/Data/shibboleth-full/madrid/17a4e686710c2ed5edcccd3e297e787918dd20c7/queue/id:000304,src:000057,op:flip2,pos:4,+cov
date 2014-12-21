@@ -1,0 +1,4 @@
+REQUFST_URI=/Shibboleth.sso/Status
+CONTENT_TYPE=rlencoded
+
+t

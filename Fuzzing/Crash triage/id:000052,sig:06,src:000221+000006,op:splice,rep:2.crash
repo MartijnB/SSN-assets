@@ -1,0 +1,53 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 10551)]
+[New Thread 0x7ffff523f700 (LWP 10555)]
+
+Program received signal SIGSEGV, Segmentation fault.
+_int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1049) at malloc.c:3684
+3684	malloc.c: No such file or directory.
+#0  _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1049) at malloc.c:3684
+#1  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=1049) at malloc.c:2858
+#2  0x00007ffff6dbc2e8 in operator new(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#3  0x00007ffff6e1be99 in std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#4  0x00007ffff6e1cb0b in std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#5  0x00007ffff6e1cbb0 in std::string::reserve(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007ffff793a9d3 in push_back (__c=106 'j', this=0x7fffffffc1e0) at /usr/include/c++/4.8/bits/basic_string.h:1056
+#7  operator+= (__c=106 'j', this=0x7fffffffc1e0) at /usr/include/c++/4.8/bits/basic_string.h:952
+#8  shibsp::AbstractSPRequest::setRequestURI (this=0x7fffffffc1a0, uri=0x8ca95c "j+ZQkk4OFRqaUg2aFZqbm96by9ZSEEyYzUxdXMrWTdnMFhvUzc2NTNsYlVOL0VIenZETXV5aXM0WGkySWpmMUEvT1VRZkgxaUZVV3R0SWd0V0s5K2ZhdFhvR1VTNnRpclF2cnpWaDZac3RFcDF4YnBvMVNGNlVvVmwrZmg3dE04MXF6K0Nyci9Lcm9hbjBVanBaT0ZUd"...) at AbstractSPRequest.cpp:181
+#9  0x0000000000404a98 in ShibTargetFCGI (port=443, hostname=<optimized out>, scheme=<optimized out>, post_data=0x684c70 '\t' <repeats 55 times>, "C\177l\377\377\n\323H\n\200bole\224h.\177\377\027Cd\nSh", req=0x7fffffffc150, this=0x7fffffffc1a0, __in_chrg=<optimized out>, __vtt_parm=<optimized out>) at shibresponder.cpp:125
+#10 main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:460
+#11 0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#12 0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x806780	8415104
+rbx            0x7ffff6924620	140737330169376
+rcx            0x7ffff65ee92e	140737326803246
+rdx            0x33353d4854474a11	3689922850560887313
+rsi            0x7fffffffbce0	140737488338144
+rdi            0x9	9
+rbp            0x431	0x431
+rsp            0x7fffffffbf90	0x7fffffffbf90
+r8             0x33353d4854474e40	3689922850560888384
+r9             0x14	20
+r10            0x7ffff6603740	140737326888768
+r11            0x246	582
+r12            0x806350	8414032
+r13            0x33353d4854474a10	3689922850560887312
+r14            0x419	1049
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65fa27f	0x7ffff65fa27f <_int_malloc+2239>
+eflags         0x10206	[ PF IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 10503] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

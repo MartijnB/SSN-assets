@@ -1,0 +1,8 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=txml
+
+<S:Enve="htvelo><S:velope/"><S:Body><S:F/envelope/":Body><S:Fault>Server</faultcodServer</faultcodxml
+
+<S:Envelopexml
+
+<S:Envelope xmlns:S="http:/pe/"><S:Bodÿault¸tring></S:Fault></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</faultcode><faultstring>ring> request.</fault></S:Body></S:Envelopeing>Error velopeing>Error st.</faultstringttp://sch/smap/envelope/"><S:Bodor processieg request.</faultRI=/Shibb:Fault><faultcode>S:oepverS:Body><S:Fault><faultcode>S:Sepver</faultcode><faultstring>Error processieg request.</faultRI=/Shibb:Fault><faultcode>S:oepver

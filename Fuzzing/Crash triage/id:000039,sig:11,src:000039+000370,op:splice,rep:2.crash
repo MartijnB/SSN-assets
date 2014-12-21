@@ -1,0 +1,14 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Status: 500 Server Error
+
+<html><body>FastCGI Shibboleth responder caught an exception, check log for details.</body></html>[New Thread 0x7ffff5a40700 (LWP 32648)]
+[New Thread 0x7ffff523f700 (LWP 32652)]
+[Thread 0x7ffff5a40700 (LWP 32648) exited]
+[Thread 0x7ffff7fdd740 (LWP 32606) exited]
+[Inferior 1 (process 32606) exited normally]
+No stack.
+Value can't be converted to integer.
+The program has no registers now.

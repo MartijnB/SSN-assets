@@ -1,0 +1,5 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPg=text/QUESOAP
+CONTENT_TYPg=text/xml
+
+<S:Enmlns:S="http://lrg/soap/envelopede>S:Server</faultcode><faultstrltcode><faultstr:S="http://lchemaó.xmlsoa.org/soap/envelope/"><S:Body><h:Fault]ultstring></S:Fault></S:Body></S:Envelope>dy></S:Envelope>dy></S:Envelope>dy></S:Envelope>dy></S:Envelope>

@@ -1,0 +1,54 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 4951)]
+[New Thread 0x7ffff523f700 (LWP 4953)]
+
+Program received signal SIGABRT, Aborted.
+0x00007ffff65b53a9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+56	../nptl/sysdeps/unix/sysv/linux/raise.c: No such file or directory.
+#0  0x00007ffff65b53a9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+#1  0x00007ffff65b84c8 in __GI_abort () at abort.c:89
+#2  0x00007ffff65f7ebd in __malloc_assert (assertion=assertion@entry=0x7ffff66e2a45 "(bck->bk->size & 0x4) == 0", file=file@entry=0x7ffff66e2911 "malloc.c", line=line@entry=3481, function=function@entry=0x7ffff66e2ca2 <__func__.11510> "_int_malloc") at malloc.c:290
+#3  0x00007ffff65faafe in _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=72) at malloc.c:3481
+#4  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=72) at malloc.c:2858
+#5  0x00007ffff6dbc36c in operator new(unsigned long, std::nothrow_t const&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007ffff7b3e565 in shibsp::DDF::DDF (this=0x7fffffffbc60, n=0x7fffffffbc70 "content_length") at remoting/impl/ddf.cpp:129
+#7  0x00007ffff7b41d80 in shibsp::DDF::addmember (this=0x7fffffffbde0, path=<optimized out>) at remoting/impl/ddf.cpp:643
+#8  0x00007ffff7a4e8ac in shibsp::RemotedHandler::wrap (this=<optimized out>, request=..., headers=0x7fffffffbed0, certs=<optimized out>) at handler/impl/RemotedHandler.cpp:369
+#9  0x00007ffff7a04656 in shibsp::AssertionConsumerService::run (this=0x6ee9d0, request=..., isHandler=<optimized out>) at handler/impl/AssertionConsumerService.cpp:125
+#10 0x00007ffff7965ca1 in shibsp::ServiceProvider::doHandler (this=<optimized out>, request=...) at ServiceProvider.cpp:667
+#11 0x0000000000404aac in main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:462
+#12 0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#13 0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x0	0
+rbx            0x7ffff6924620	140737330169376
+rcx            0xffffffffffffffff	-1
+rdx            0x6	6
+rsi            0x1320	4896
+rdi            0x1320	4896
+rbp            0x50	0x50
+rsp            0x7fffffffb9e8	0x7fffffffb9e8
+r8             0x7ffff7fdd740	140737353996096
+r9             0x7ffff6922be0	140737330162656
+r10            0x8	8
+r11            0x202	514
+r12            0x808580	8422784
+r13            0x2710	10000
+r14            0x48	72
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65b53a9	0x7ffff65b53a9 <__GI_raise+57>
+eflags         0x202	[ IF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 4896] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

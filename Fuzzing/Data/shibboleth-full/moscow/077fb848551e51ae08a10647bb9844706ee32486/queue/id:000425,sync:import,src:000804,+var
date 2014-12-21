@@ -1,0 +1,7 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&6&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xwl
+
+<S:Envel&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>nvST_URI=/ShibbonvST_URI=/ShibbonvST_URI=/ShibbonvST_URI=/ShibbonvST_URI=/Shibbo

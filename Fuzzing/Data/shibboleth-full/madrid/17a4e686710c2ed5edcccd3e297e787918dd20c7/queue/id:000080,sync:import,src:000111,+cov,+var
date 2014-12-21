@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+RONTENT_TYPE=txml
+
+<S:tp://sch/soap/envelope/"><S:Body><S:Fault><faultcodecodeerverdy>rdy>lopelopelope>dy>lopelopelope>dy>lopelopelope>dy></S:Enve

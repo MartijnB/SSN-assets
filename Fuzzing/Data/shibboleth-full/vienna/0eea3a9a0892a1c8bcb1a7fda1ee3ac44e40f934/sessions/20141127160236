@@ -1,0 +1,14 @@
+start_time     : 1417100556
+last_update    : 1417269133
+fuzzer_pid     : 31302
+cycles_done    : 20
+execs_done     : 6510317
+paths_total    : 136
+paths_found    : 130
+paths_imported : 0
+cur_path       : 135
+pending_favs   : 0
+pending_total  : 5
+variable_paths : 33
+unique_crashes : 0
+unique_hangs   : 2

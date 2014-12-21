@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/€tatus
+CONTENT_TYPE=x-www-form-urlencoded
+
+test

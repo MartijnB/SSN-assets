@@ -1,0 +1,1 @@
+var apiGroups = {"groups": [{"name": "DataStorage", "subgroups": [{"name": "UserPreferences"}, {"name": "Keychain"}]}, {"name": "IPC", "subgroups": [{"name": "Schemes"}]}, {"name": "Network", "subgroups": [{"name": "HTTP"}]}]};

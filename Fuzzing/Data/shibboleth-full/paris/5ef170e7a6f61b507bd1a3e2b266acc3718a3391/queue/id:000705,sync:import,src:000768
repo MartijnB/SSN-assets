@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:="http://schemas.xmlsoap.orgRsoa><S:Fault><fault><S:Fault><fault</S:EnvST_URI=/S</S:EnvST_URI=/S</S:EnvST_URI=/S</S:EnvST_URI=/S</S:EnvST_URI=/S

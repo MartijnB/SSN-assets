@@ -1,0 +1,9 @@
+REQUEST_URM=/Stus
+Cd
+REQUEST_URM=/Shibboleth#sso/Status
+Cdhibboleth#sso/Status
+Cd
+REQUEST_URM=/Shibboleth#sso/Status
+Cd
+
+t

@@ -1,0 +1,33 @@
+<h1>Distributed Fuzzing for afl</h1>
+<h2>Install</h2>
+<pre>
+sudo apt-get install python python-dev python-pip tmux screen
+sudo pip install requests psutil tmuxp
+mkdir ./fuzzing
+sudo mount -t tmpfs -o size=2G tmpfs ./fuzzing
+cd ./fuzzing
+wget https://www.distributed-fuzzing.nl/disfuzz.py
+chmod +x disfuzz.py
+</pre>
+<h2>Automated fuzzing</h2>
+<pre>
+screen ./disfuzz.py auto
+
+Close now your terminal window or use ^a + d to detach!
+</pre>
+
+<h2>Manual fuzzing</h2>
+<pre>
+./disfuzz.py list
+./disfuzz.py init &lt;projectname&gt;
+./disfuzz.py start &lt;projectname&gt; [-m]
+screen ./disfuzz.py monitor
+
+Close now your terminal window or use ^a + d to detach!
+
+Note: The first but ONLY the first client must start itself as master instance
+Note: Make sure that the monitor system is always running! Otherwise your results are not uploaded and the results of other instances not imported.
+</pre>
+
+<h2>Privacy</h2>
+By starting a fuzzing client, you share your IP address and hostname. Also are all generated testcases uploaded and combined with relevant crash and hang data. If you don't agree with this, do NOT use this project.

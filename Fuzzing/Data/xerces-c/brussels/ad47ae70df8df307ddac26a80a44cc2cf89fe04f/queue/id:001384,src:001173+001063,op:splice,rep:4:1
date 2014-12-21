@@ -1,0 +1,263 @@
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasisc:SAML:2.0:assertion" ID="CORTOafefd2c0e09/xmldsig#5295big#5295be03973f" Vhrsion="2.0" IssueInstant="2014-11-17T12:51:32Z" Destination="rfcloud.local/Shibboleth.sso/SAMnseTo="_0731feacnseTo="_0731feacae37ab41e7b1d20c85bad8a6"><saml:Issuer>hngine.surfconext.local/authentication/idta</saml:Issuer>:Issuer><samlp:Status><samlp:StatusCode Value="urn:oasis:names:tc:SAMsis:names:tc:SAML:2.0:status:Success"/></samlp:Status><saml:Assertion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/2001/XMLSchema" ID="CORTO72da4b58aecb0a72ad7be90ee9e9e07795fd8a17" Version="2.0" IssueInstant="2014-11-17T12:51:32Z"><saml:Issuer>https://engine.surfconext.local/authentication/idp/metadata</saml:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <ds:Reference URI="#CORTO72da4b58aecb0a72ad7be90ee9e9e07795fd8a17"><ds:Transforms><ds:Transform Algorithm="http://wwww3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>WIVT0eREFAaHlJx7PZWM87xLGUrfcloud.local/Shibboleth.sso/SAML2/POST" InResponsiTo="_0731feacae37ab41e7b1d20c85bad8a6"><saml:Issuer>https://engine.surfconext.local/authentication/idp/metadata</saml:Issuer><samlp:Sl >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<rooml >
+<rRWml >
+<l >
+<roooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<roaml >
+<l >
+<rooml >
+*raml >
+<l >
+<rooml >
+*roomk >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<rooml >
+<rRWml >
+<l >
+<roooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<roaml >
+<l >
+<rooml >
+*rooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<rooml >
+<rRWml >
+<l >
+<rooml >
+<l>
+<l >
+<roaml >
+<l >
+<rooml >
+*rooml >
+<l >
+<rooml >
+<roYml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<looml >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<rooml >
+<rRWml >
+<l >
+<rooml >
+<l>
+<l >
+<roaml >
+<l >
+<rooml >
+*rooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<roomoml >
+<roWml >
+<l >
+<roaml >
+<l >
+<rooml >
+*rooml >
+<l >
+<rooWml >
+<l >
+<rooml >
+<l>
+<l >
+<roaml >
+<l >
+<rooml >
+*rooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+RWml >
+<l >
+<roaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<roomoml >
+<roWml >
+<l >
+<l >
+<rooml >
+<l >
+<rooml >
+<rRWml >
+<l >
+<roooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<roaml >
+<l >
+<rooml >
+*raml >
+<l >
+<rooml >
+*roomk >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<rooml >
+<rRWml >
+<l >
+<roooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<roaml >
+<l >
+<rooml >
+*rooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<l >
+<rooml >
+<l >
+<rooml >
+<rRWml >
+<l >
+<rooml >
+<l>
+<l >
+<roaml >
+<l >
+<rooml >
+*rooml >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmaml >
+>l >ml >
+<looml >
+<l >
+<rooml >
+<roWml >
+<l >
+<rooml >
+<l >
+<l >
+<roWtml >
+<mmaml >
+<l >mmamll>
+<l >
+roaml >l>
+<l >
+roaml >l>
+<l >
+roaml >l>
+<l >
+roaml >l>
+<l >
+roaml >

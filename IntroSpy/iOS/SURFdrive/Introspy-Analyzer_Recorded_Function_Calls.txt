@@ -1,0 +1,504 @@
+  CFBundleURLTypes:CFBundleURLSchemes
+		arguments =>
+		  CFBundleURLIsPrivate => nil
+		  CFBundleURLName => owncloud.sn
+		  CFBundleURLScheme => owncloud
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => hasAccessibilityBeenMigrated
+		returnValue => True
+
+  NSUserDefaults:stringForKey:
+		arguments =>
+		  defaultName => UIPreferredContentSizeCategoryName
+		returnValue => nil
+
+  UIApplication:setDelegate:
+		arguments =>
+		  delegate => ['window', 'application:openURL:sourceApplication:annotation:', 'applicationWillTerminate:', 'applicationDidBecomeActive:', 'applicationWillResignActive:', 'applicationDidEnterBackground:', 'applicationWillEnterForeground:', 'application:didFinishLaunchingWithOptions:', 'setWindow:', 'application:performFetchWithCompletionHandler:', 'application:handleEventsForBackgroundURLSession:completionHandler:']
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => NSLayoutManagerForcesShowPackedGlyphs
+		returnValue => False
+
+  NSUserDefaults:floatForKey:
+		arguments =>
+		  defaultName => NSTighteningFactorForTruncation
+		returnValue => 0.0
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => NSForceRightToLeftWritingDirection
+		returnValue => False
+
+  NSUserDefaults:integerForKey:
+		arguments =>
+		  defaultName => NSStringDrawingLongTermCacheSize
+		returnValue => 0
+
+  NSUserDefaults:integerForKey:
+		arguments =>
+		  defaultName => NSStringDrawingLongTermThreshold
+		returnValue => 0
+
+  NSUserDefaults:integerForKey:
+		arguments =>
+		  defaultName => NSStringDrawingShortTermCacheSize
+		returnValue => 0
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => NSPreTigerAttributedStringHash
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => HangTracerEnabled
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => CUILogFPOArtwork
+		returnValue => False
+
+  NSURLConnection:initWithRequest:delegate:
+		arguments =>
+		  delegate => ['connection:didFailWithError:', 'connection:willSendRequestForAuthenticationChallenge:']
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => GET
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/status.php
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files/status.php
+		      port => nil
+		      query => nil
+		      scheme => https
+		    cachePolicy => 0
+		returnValue => Introspy - Not supported
+
+  NSURLConnectionDelegate:connection:willSendRequest:redirectResponse:
+		arguments =>
+		  connection => 375868752
+		  redirectResponse =>
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => GET
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/status.php
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files/status.php
+		      port => nil
+		      query => nil
+		      scheme => https
+		    cachePolicy => 0
+		returnValue =>
+		  HTTPBody => nil
+		  HTTPMethod => GET
+		  URL =>
+		    absoluteString => https://surfdrive.surf.nl/files/status.php
+		    host => surfdrive.surf.nl
+		    parameterString => nil
+		    path => /files/status.php
+		    port => nil
+		    query => nil
+		    scheme => https
+		  cachePolicy => 0
+
+  C:SecItemCopyMatching
+		arguments =>
+		  query =>
+		    class => kSecClassInternetPassword
+		    m_Limit => m_LimitAll
+		    r_Attributes => True
+		    sync => syna
+		  result => Introspy - Not supported
+		returnValue => -25300
+
+  C:SecItemCopyMatching
+		arguments =>
+		  query =>
+		    class => kSecClassInternetPassword
+		    m_Limit => m_LimitAll
+		    r_Attributes => True
+		    sync => syna
+		  result => Introspy - Not supported
+		returnValue => -25300
+
+  NSURLConnection:initWithRequest:delegate:startImmediately:
+		arguments =>
+		  delegate => ['connection:didFailWithError:', 'connectionShouldUseCredentialStorage:', 'connection:willSendRequestForAuthenticationChallenge:']
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => HEAD
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/remote.php/webdav/
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files/remote.php/webdav
+		      port => nil
+		      query => nil
+		      scheme => https
+		    cachePolicy => 1
+		  startImmediately => False
+		returnValue => Introspy - Not supported
+
+  NSURLConnectionDelegate:connection:willSendRequest:redirectResponse:
+		arguments =>
+		  connection => 375991408
+		  redirectResponse =>
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => HEAD
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/remote.php/webdav/
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files/remote.php/webdav
+		      port => nil
+		      query => nil
+		      scheme => https
+		    cachePolicy => 1
+		returnValue =>
+		  HTTPBody => nil
+		  HTTPMethod => HEAD
+		  URL =>
+		    absoluteString => https://surfdrive.surf.nl/files/remote.php/webdav/
+		    host => surfdrive.surf.nl
+		    parameterString => nil
+		    path => /files/remote.php/webdav
+		    port => nil
+		    query => nil
+		    scheme => https
+		  cachePolicy => 1
+
+  NSURLConnectionDelegate:connection:willSendRequest:redirectResponse:
+		arguments =>
+		  connection => 375991408
+		  redirectResponse =>
+		    MIMEType => text/html
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/remote.php/webdav/
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files/remote.php/webdav
+		      port => nil
+		      query => nil
+		      scheme => https
+		    suggestedFilename => webdav.html
+		    textEncodingName => iso-8859-1
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => HEAD
+		    URL =>
+		      absoluteString => https://engine.surfconext.nl/authentication/idp/single-sign-on/key:20140505?SAMLRequest=fZLNbsIwEIRfJfI9OAk%2FAYsgUTgUibaIpD30UjlhAatmnXodCm%2FfhLQqPZSbtZ75dnfsMcmDLsW0cntcw0cF5LzTQSOJy0XCKovCSFIkUB6AhCtEOn1YiqgTiNIaZwqjmTclAuuUwZlBqg5gU7BHVcDzepmwvXMlCc6pstuNVUfoNKcOap7uVZ4bDW7fITK8AUd89ZRmzJvXkyiUDfOXALhT2NoLg3ByDUTWswM6VVzEXG1KTgp3GnxSO%2FTr0jucRRSEvaAf9Jm3mCfsbQDxNhrEo0EQ5V3Zi7bDeBTL7nYTx6Gsa7WMqIIFkpPoEtbY%2FTDyg0EWDkU%2FEL3RK%2FNW3wHcKdzULW%2BnlbciEvdZtvLbLV%2FA0mXDWsAm4yZzcWlsr17hNlb%2BRM8m%2Fwc95lfotk8pHmvWYr4yWhVnb6q1%2BZxZkA4SFjI%2BaS1%2Fv8bkCw%3D%3D&RelayState=ss%3Amem%3Aadcbdf25d1f7443218a36881c9c318fa52125a32fffaacfe631d54cca29e7de1
+		      host => engine.surfconext.nl
+		      parameterString => nil
+		      path => /authentication/idp/single-sign-on/key:20140505
+		      port => nil
+		      query => SAMLRequest=fZLNbsIwEIRfJfI9OAk%2FAYsgUTgUibaIpD30UjlhAatmnXodCm%2FfhLQqPZSbtZ75dnfsMcmDLsW0cntcw0cF5LzTQSOJy0XCKovCSFIkUB6AhCtEOn1YiqgTiNIaZwqjmTclAuuUwZlBqg5gU7BHVcDzepmwvXMlCc6pstuNVUfoNKcOap7uVZ4bDW7fITK8AUd89ZRmzJvXkyiUDfOXALhT2NoLg3ByDUTWswM6VVzEXG1KTgp3GnxSO%2FTr0jucRRSEvaAf9Jm3mCfsbQDxNhrEo0EQ5V3Zi7bDeBTL7nYTx6Gsa7WMqIIFkpPoEtbY%2FTDyg0EWDkU%2FEL3RK%2FNW3wHcKdzULW%2BnlbciEvdZtvLbLV%2FA0mXDWsAm4yZzcWlsr17hNlb%2BRM8m%2Fwc95lfotk8pHmvWYr4yWhVnb6q1%2BZxZkA4SFjI%2BaS1%2Fv8bkCw%3D%3D&RelayState=ss%3Amem%3Aadcbdf25d1f7443218a36881c9c318fa52125a32fffaacfe631d54cca29e7de1
+		      scheme => https
+		    cachePolicy => 1
+		returnValue =>
+		  HTTPBody => nil
+		  HTTPMethod => HEAD
+		  URL =>
+		    absoluteString => https://engine.surfconext.nl/authentication/idp/single-sign-on/key:20140505?SAMLRequest=fZLNbsIwEIRfJfI9OAk%2FAYsgUTgUibaIpD30UjlhAatmnXodCm%2FfhLQqPZSbtZ75dnfsMcmDLsW0cntcw0cF5LzTQSOJy0XCKovCSFIkUB6AhCtEOn1YiqgTiNIaZwqjmTclAuuUwZlBqg5gU7BHVcDzepmwvXMlCc6pstuNVUfoNKcOap7uVZ4bDW7fITK8AUd89ZRmzJvXkyiUDfOXALhT2NoLg3ByDUTWswM6VVzEXG1KTgp3GnxSO%2FTr0jucRRSEvaAf9Jm3mCfsbQDxNhrEo0EQ5V3Zi7bDeBTL7nYTx6Gsa7WMqIIFkpPoEtbY%2FTDyg0EWDkU%2FEL3RK%2FNW3wHcKdzULW%2BnlbciEvdZtvLbLV%2FA0mXDWsAm4yZzcWlsr17hNlb%2BRM8m%2Fwc95lfotk8pHmvWYr4yWhVnb6q1%2BZxZkA4SFjI%2BaS1%2Fv8bkCw%3D%3D&RelayState=ss%3Amem%3Aadcbdf25d1f7443218a36881c9c318fa52125a32fffaacfe631d54cca29e7de1
+		    host => engine.surfconext.nl
+		    parameterString => nil
+		    path => /authentication/idp/single-sign-on/key:20140505
+		    port => nil
+		    query => SAMLRequest=fZLNbsIwEIRfJfI9OAk%2FAYsgUTgUibaIpD30UjlhAatmnXodCm%2FfhLQqPZSbtZ75dnfsMcmDLsW0cntcw0cF5LzTQSOJy0XCKovCSFIkUB6AhCtEOn1YiqgTiNIaZwqjmTclAuuUwZlBqg5gU7BHVcDzepmwvXMlCc6pstuNVUfoNKcOap7uVZ4bDW7fITK8AUd89ZRmzJvXkyiUDfOXALhT2NoLg3ByDUTWswM6VVzEXG1KTgp3GnxSO%2FTr0jucRRSEvaAf9Jm3mCfsbQDxNhrEo0EQ5V3Zi7bDeBTL7nYTx6Gsa7WMqIIFkpPoEtbY%2FTDyg0EWDkU%2FEL3RK%2FNW3wHcKdzULW%2BnlbciEvdZtvLbLV%2FA0mXDWsAm4yZzcWlsr17hNlb%2BRM8m%2Fwc95lfotk8pHmvWYr4yWhVnb6q1%2BZxZkA4SFjI%2BaS1%2Fv8bkCw%3D%3D&RelayState=ss%3Amem%3Aadcbdf25d1f7443218a36881c9c318fa52125a32fffaacfe631d54cca29e7de1
+		    scheme => https
+		  cachePolicy => 1
+
+  NSURLCredential:initWithTrust:
+		arguments =>
+		  trust =>
+		    cert 0 =>
+		      subjectSummary => engine.surfconext.nl
+		    cert 1 =>
+		      subjectSummary => TERENA SSL CA 2
+		    cert 2 =>
+		      subjectSummary => USERTrust RSA Certification Authority
+		    cert 3 =>
+		      subjectSummary => AddTrust External CA Rootw
+		returnValue =>
+		  certificates => []
+		  identity => 0
+		  password => nil
+		  persistence => NSURLCredentialPersistenceForSession
+		  user => nil
+
+  NSURLConnection:useCredential:forAuthenticationChallenge:
+		arguments =>
+		  challenge =>
+		    proposedCredential =>
+		    protectionSpace =>
+		      authenticationMethod => NSURLAuthenticationMethodServerTrust
+		      distinguishedNames => nil
+		      host => engine.surfconext.nl
+		      isProxy => False
+		      port => 443
+		      protocol => https
+		      proxyType => nil
+		      realm => nil
+		      receivesCredentialSecurely => True
+		      serverTrust =>
+		        cert 0 =>
+		          subjectSummary => engine.surfconext.nl
+		        cert 1 =>
+		          subjectSummary => TERENA SSL CA 2
+		        cert 2 =>
+		          subjectSummary => USERTrust RSA Certification Authority
+		        cert 3 =>
+		          subjectSummary => AddTrust External CA Root
+		  credential =>
+		    certificates => []
+		    identity => 0
+		    password => nil
+		    persistence => NSURLCredentialPersistenceForSession
+		    user => nil
+
+  NSURLConnection:initWithRequest:delegate:
+		arguments =>
+		  delegate => ['connection:didFailWithError:', 'connection:canAuthenticateAgainstProtectionSpace:', 'connection:didReceiveAuthenticationChallenge:']
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => GET
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files
+		      port => nil
+		      query => nil
+		      scheme => https
+		    cachePolicy => 0
+		returnValue => Introspy - Not supported
+
+  NSURLConnectionDelegate:connection:willSendRequest:redirectResponse:
+		arguments =>
+		  connection => 375083824
+		  redirectResponse =>
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => GET
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files
+		      port => nil
+		      query => nil
+		      scheme => https
+		    cachePolicy => 0
+		returnValue =>
+		  HTTPBody => nil
+		  HTTPMethod => GET
+		  URL =>
+		    absoluteString => https://surfdrive.surf.nl/files/
+		    host => surfdrive.surf.nl
+		    parameterString => nil
+		    path => /files
+		    port => nil
+		    query => nil
+		    scheme => https
+		  cachePolicy => 0
+
+  NSURLConnectionDelegate:connection:willSendRequest:redirectResponse:
+		arguments =>
+		  connection => 375083824
+		  redirectResponse =>
+		    MIMEType => text/html
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files
+		      port => nil
+		      query => nil
+		      scheme => https
+		    suggestedFilename => files.html
+		    textEncodingName => iso-8859-1
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => GET
+		    URL =>
+		      absoluteString => https://engine.surfconext.nl/authentication/idp/single-sign-on/key:20140505?SAMLRequest=fZJBU8IwEIX%2FSif3krRYLBnKDMJBZlAZQA9enNBuIWPY1GyK8O9tqY560Fsmee%2Fb3bcZkTqYSk5qv8cVvNVAPjgdDJK8PGSsdiitIk0S1QFI%2BlyuJ3cLGfeErJz1NreGBRMicF5bnFqk%2BgBuDe6oc3hcLTK2974iyTnVriycPkKvPfXQ8PVeb7fWgN%2F3iCxvwTFfPqw3LJg1nWhULfObALjT2Nlzi3DyLUQ1vQN6nV%2FEXBcVJ407AyHpHYbN1SucZSyiK5GIhAXzWcZeknRYlIMijVQ%2FvRYq3g7FoBQDVRZxmUYAjYyohjmSV%2Bgz1trDKA7FYBOlMhEy6T%2BzYPkZwI3Goin5f1rbTkTydrNZht2UT%2BDoMmEjYONRm7m8FHY%2FtvA%2FVn1Fz8Z%2FBz3iP9BdnUreN6z5bGmNzs%2FBxBj7PnWgPGQsYnzcWX5%2FjfEH&RelayState=ss%3Amem%3A92ff23888cc71b82e26b651c00a77c38c642b00d943586da62479b2d6dd0cfbc
+		      host => engine.surfconext.nl
+		      parameterString => nil
+		      path => /authentication/idp/single-sign-on/key:20140505
+		      port => nil
+		      query => SAMLRequest=fZJBU8IwEIX%2FSif3krRYLBnKDMJBZlAZQA9enNBuIWPY1GyK8O9tqY560Fsmee%2Fb3bcZkTqYSk5qv8cVvNVAPjgdDJK8PGSsdiitIk0S1QFI%2BlyuJ3cLGfeErJz1NreGBRMicF5bnFqk%2BgBuDe6oc3hcLTK2974iyTnVriycPkKvPfXQ8PVeb7fWgN%2F3iCxvwTFfPqw3LJg1nWhULfObALjT2Nlzi3DyLUQ1vQN6nV%2FEXBcVJ407AyHpHYbN1SucZSyiK5GIhAXzWcZeknRYlIMijVQ%2FvRYq3g7FoBQDVRZxmUYAjYyohjmSV%2Bgz1trDKA7FYBOlMhEy6T%2BzYPkZwI3Goin5f1rbTkTydrNZht2UT%2BDoMmEjYONRm7m8FHY%2FtvA%2FVn1Fz8Z%2FBz3iP9BdnUreN6z5bGmNzs%2FBxBj7PnWgPGQsYnzcWX5%2FjfEH&RelayState=ss%3Amem%3A92ff23888cc71b82e26b651c00a77c38c642b00d943586da62479b2d6dd0cfbc
+		      scheme => https
+		    cachePolicy => 0
+		returnValue =>
+		  HTTPBody => nil
+		  HTTPMethod => GET
+		  URL =>
+		    absoluteString => https://engine.surfconext.nl/authentication/idp/single-sign-on/key:20140505?SAMLRequest=fZJBU8IwEIX%2FSif3krRYLBnKDMJBZlAZQA9enNBuIWPY1GyK8O9tqY560Fsmee%2Fb3bcZkTqYSk5qv8cVvNVAPjgdDJK8PGSsdiitIk0S1QFI%2BlyuJ3cLGfeErJz1NreGBRMicF5bnFqk%2BgBuDe6oc3hcLTK2974iyTnVriycPkKvPfXQ8PVeb7fWgN%2F3iCxvwTFfPqw3LJg1nWhULfObALjT2Nlzi3DyLUQ1vQN6nV%2FEXBcVJ407AyHpHYbN1SucZSyiK5GIhAXzWcZeknRYlIMijVQ%2FvRYq3g7FoBQDVRZxmUYAjYyohjmSV%2Bgz1trDKA7FYBOlMhEy6T%2BzYPkZwI3Goin5f1rbTkTydrNZht2UT%2BDoMmEjYONRm7m8FHY%2FtvA%2FVn1Fz8Z%2FBz3iP9BdnUreN6z5bGmNzs%2FBxBj7PnWgPGQsYnzcWX5%2FjfEH&RelayState=ss%3Amem%3A92ff23888cc71b82e26b651c00a77c38c642b00d943586da62479b2d6dd0cfbc
+		    host => engine.surfconext.nl
+		    parameterString => nil
+		    path => /authentication/idp/single-sign-on/key:20140505
+		    port => nil
+		    query => SAMLRequest=fZJBU8IwEIX%2FSif3krRYLBnKDMJBZlAZQA9enNBuIWPY1GyK8O9tqY560Fsmee%2Fb3bcZkTqYSk5qv8cVvNVAPjgdDJK8PGSsdiitIk0S1QFI%2BlyuJ3cLGfeErJz1NreGBRMicF5bnFqk%2BgBuDe6oc3hcLTK2974iyTnVriycPkKvPfXQ8PVeb7fWgN%2F3iCxvwTFfPqw3LJg1nWhULfObALjT2Nlzi3DyLUQ1vQN6nV%2FEXBcVJ407AyHpHYbN1SucZSyiK5GIhAXzWcZeknRYlIMijVQ%2FvRYq3g7FoBQDVRZxmUYAjYyohjmSV%2Bgz1trDKA7FYBOlMhEy6T%2BzYPkZwI3Goin5f1rbTkTydrNZht2UT%2BDoMmEjYONRm7m8FHY%2FtvA%2FVn1Fz8Z%2FBz3iP9BdnUreN6z5bGmNzs%2FBxBj7PnWgPGQsYnzcWX5%2FjfEH&RelayState=ss%3Amem%3A92ff23888cc71b82e26b651c00a77c38c642b00d943586da62479b2d6dd0cfbc
+		    scheme => https
+		  cachePolicy => 0
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => WebKitKerningAndLigaturesEnabledByDefault
+		returnValue => True
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => WebKitSingleTapModeEnabled
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => NSFileManagerRemoveUbiquitousItems
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => DisableWebKitDeveloperExtras
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => WebKitDeveloperExtras
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => IncludeDebugMenu
+		returnValue => False
+
+  NSUserDefaults:setBool:forKey:
+		arguments =>
+		  defaultName => WebKitShrinksStandaloneImagesToFit
+		  value => True
+
+  NSUserDefaults:setBool:forKey:
+		arguments =>
+		  defaultName => WebKitOfflineWebApplicationCacheEnabled
+		  value => True
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => DisableWebKitDeveloperExtras
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => WebKitDeveloperExtras
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => IncludeDebugMenu
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => DisableWebKitDeveloperExtras
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => WebKitDeveloperExtras
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => IncludeDebugMenu
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => WebKitOmitPDFSupport
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => WebKitOmitPDFSupport
+		returnValue => False
+
+  NSUserDefaults:integerForKey:
+		arguments =>
+		  defaultName => DataDetectorsUILogLevel
+		returnValue => 0
+
+  NSUserDefaults:arrayForKey:
+		arguments =>
+		  defaultName => AppleLanguages
+		returnValue => ['en']
+
+  NSUserDefaults:integerForKey:
+		arguments =>
+		  defaultName => NSUndoManagerDefaultLevelsOfUndo
+		returnValue => 0
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => DebugConfirmTossingUnsubmittedFormTextPreferenceKey
+		returnValue => False
+
+  NSUserDefaults:boolForKey:
+		arguments =>
+		  defaultName => DebugConfirmTossingUnsubmittedFormTextPreferenceKey
+		returnValue => False
+
+  NSURLConnection:initWithRequest:delegate:startImmediately:
+		arguments =>
+		  delegate => ['connection:didFailWithError:', 'connectionShouldUseCredentialStorage:', 'connection:willSendRequestForAuthenticationChallenge:']
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => GET
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/index.php/ocs/cloud/user?format=json
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files/index.php/ocs/cloud/user
+		      port => nil
+		      query => format=json
+		      scheme => https
+		    cachePolicy => 1
+		  startImmediately => False
+		returnValue => Introspy - Not supported
+
+  NSURLConnectionDelegate:connection:willSendRequest:redirectResponse:
+		arguments =>
+		  connection => 375064128
+		  redirectResponse =>
+		  request =>
+		    HTTPBody => nil
+		    HTTPMethod => GET
+		    URL =>
+		      absoluteString => https://surfdrive.surf.nl/files/index.php/ocs/cloud/user?format=json
+		      host => surfdrive.surf.nl
+		      parameterString => nil
+		      path => /files/index.php/ocs/cloud/user
+		      port => nil
+		      query => format=json
+		      scheme => https
+		    cachePolicy => 1
+		returnValue =>
+		  HTTPBody => nil
+		  HTTPMethod => GET
+		  URL =>
+		    absoluteString => https://surfdrive.surf.nl/files/index.php/ocs/cloud/user?format=json
+		    host => surfdrive.surf.nl
+		    parameterString => nil
+		    path => /files/index.php/ocs/cloud/user
+		    port => nil
+		    query => format=json
+		    scheme => https
+		  cachePolicy => 1
+

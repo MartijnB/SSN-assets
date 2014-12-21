@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&<&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://sc}emas.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Saultcodeaultcodeg>Era>Er/faultst/faultst</1:EnvS</1:EnvShibbolerhibbolerhibbolerh.sso/St

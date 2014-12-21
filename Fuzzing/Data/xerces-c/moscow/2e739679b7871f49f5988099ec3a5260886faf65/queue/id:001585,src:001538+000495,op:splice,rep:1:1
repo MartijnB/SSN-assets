@@ -1,0 +1,195 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<s_____________t8>4?xl`<?xl versodind.>򿐑.0" encoding="UTF
+
+
+
+
+ponseTo="_0731feacae31d20c85surfclou<saml>򿐑.򿐑.0" encoding="UTF-8sidrive$surfcloud.local/Shibboleth.ssoDSAML
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0Q31feacae37ab41e7b1d20c85buer>d.>򿐑oding="U
+
+
+
+
+
+
+p
+
+
+
+
+
+
+___________________________p
+
+
+
+
+
+p_0731fea_0731fea1e7b1d201e7b1d20c85buer>c85bu5
+<d8"?>
+<?򿐑.0" encoding="UTF
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0731feacae37ab41e7b1d20c85surfclou<s<?xml version="1.1" encoding="UTF-8"?>
+<s_____________t8>4?xl`<?xl versodind.>򿐑.0" bncoding="UTF
+
+
+
+
+ponseTo="_0731feacae31d20c85surfclou<saml>򿐑.򿐑.0" encoding="UTF-ing="UTF
+
+
+
+
+ponseTo="_0731feacae31d20c85surfclou<saml>򿐑.򿐑.0" encoding="UTF-8sidrive$surfcloud.local/Shibboleth.ssoDSAML
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0Q31feacae37ab41e7b1d20c85buer>d.>򿐑oding="U
+
+
+
+
+
+
+p
+
+
+
+
+
+
+___________________________p
+
+
+
+
+
+p_0731fea_0731fea1e7b1d201e7b1d20c85buer>c85bu5
+<d8"?>
+<?򿐑.0" encoding="UTF
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0731feacae37ab41e7b1d20c85surfclou<s<?xml version="1.1" encoding="UTF-8"?>
+<s_____________t8>4?xl`<?xl versodind.>򿐑.0" bncoding="UTF
+
+
+
+
+ponseTo="_0731feacae31d20c85surfclou<saml>򿐑.򿐑.0" encoding="UTF-8sidrive$surfcloud.local/Shibboleth.ssoDSAML
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0Q31feacae37ab41e7b1d20c85buer>d.>򿐑oding
+
+___________________________p
+
+
+
+
+
+p_0731fea_0731fea1e7b1d201e7b1d20c85buer>c85bu5
+<d8"?>
+<?򿐑.0" encoding="UTF
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0731feacae37ab41e7b1d20c85surfclou<saml>r>1e7b1d7b1d5bue7b1d5bue  <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <ds:Reference UR8sidrive$surfcloud.local/Shibboleth.ssoDSAML
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0Q31feacae37ab41e7b1d20c85buer>d.>򿐑oding
+
+___________________________p
+
+
+
+
+
+p_0731fea_0731fea1e7b1d201e7b1d20c85buer>c85bu5
+<d8"?>
+<?򿐑.0" encoding="UTF
+
+
+
+
+
+
+
+
+
+
+
+
+ponseTo="_0731feacae37ab41e7b1d20c85surfclou<saml>r>1e7b1d7b1d5bue7b1d5bue  <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <ds:Reference URI="#CORTO72da4b58aecb0a72ad7be90ee9e9e07795fd8a17"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>WIVT0eREFAaHlJx7PZWM87xLGUw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Mciyv9Lt5ULEvpARb5LBr27OlaWjTP7ua3KYwN1XkyvOMnNpQ5gmHUAhmcwTAEuhcyk2Oy82BOSkvaV6q/Puyjuu8c4qg9znQuv4UCKF8WuYZZKEaP1n9UsE/gYgKZlQ/RD00/8HtvcvLQTXaauYu+4EqZNTAcERRFC/Kpz6YTspCwaHlxizVtu86RrPe3rgVBM9PSndgZu9L9mRk9MjQg==</ds:SignatureValue>
+    <ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID3zCCAsegv53Gekz487GgVRs8HEeT9MU1reBKRgdENR8PNg4rbQfLc3YQKLWK7yWnn/RenjDpuCiePj8N8/80tGgrNgK/6fzM3zI18sSywnXLswxqDb/J+jgVxnQ6MrsTnticatingAuthority>https://www.onegini.me</saml:<saml:AuthenticatingAuthority>https://www.onegini.me</saml:

@@ -1,0 +1,5 @@
+REQUEST_URI=/Shibboleth.sso/Status
+CONTENT_TYPE=xh.sso/Status
+CONTENT_TYPE=x--www-fo2m-urlencoded
+
+test

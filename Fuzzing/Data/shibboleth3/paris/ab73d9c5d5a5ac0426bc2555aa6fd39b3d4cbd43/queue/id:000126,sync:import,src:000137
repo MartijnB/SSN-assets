@@ -1,0 +1,4 @@
+REQUEST_URI=EQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xm€ns:S="htt{://schemas.xmlsoap.org/soap/enveввввввЩвввввввввввввввввввввввcode>S:Server</faultcode><faultstring>Error pro[essing request</fa/S:Fault></S:Body></S:Envelope>

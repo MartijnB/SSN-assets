@@ -1,0 +1,15 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Status: 500 Server Error
+Connection: close
+
+Metadata Request Failed[New Thread 0x7ffff5a40700 (LWP 17282)]
+[New Thread 0x7ffff523f700 (LWP 17286)]
+[Thread 0x7ffff5a40700 (LWP 17282) exited]
+[Thread 0x7ffff7fdd740 (LWP 17226) exited]
+[Inferior 1 (process 17226) exited normally]
+No stack.
+Value can't be converted to integer.
+The program has no registers now.

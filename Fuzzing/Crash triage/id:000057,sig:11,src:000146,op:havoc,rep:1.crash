@@ -1,0 +1,58 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 8531)]
+[New Thread 0x7ffff523f700 (LWP 8533)]
+
+Program received signal SIGSEGV, Segmentation fault.
+_int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1049) at malloc.c:3684
+3684	malloc.c: No such file or directory.
+#0  _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1049) at malloc.c:3684
+#1  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=1049) at malloc.c:2858
+#2  0x00007ffff6dbc2e8 in operator new(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#3  0x00007ffff6e1be99 in std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#4  0x00007ffff6e1cb0b in std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#5  0x00007ffff6e1cbb0 in std::string::reserve(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007ffff6df8fb4 in std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::overflow(int) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#7  0x00007ffff6dfcd65 in std::basic_streambuf<char, std::char_traits<char> >::xsputn(char const*, long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#8  0x00007ffff6df3f33 in std::ostream::write(char const*, long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#9  0x00007ffff7b42eb1 in xml_encode (os=..., start=<optimized out>) at remoting/impl/ddf.cpp:813
+#10 0x00007ffff7b43a30 in serialize (p=<optimized out>, os=..., name_attr=name_attr@entry=true) at remoting/impl/ddf.cpp:889
+#11 0x00007ffff7b43ea6 in shibsp::operator<< (os=..., obj=...) at remoting/impl/ddf.cpp:940
+#12 0x00007ffff7b4f4b1 in shibsp::SocketListener::send (this=0x8545f8, in=...) at remoting/impl/SocketListener.cpp:302
+#13 0x00007ffff7a54108 in shibsp::SAML2ArtifactResolution::run (this=0x6ee380, request=..., isHandler=<optimized out>) at handler/impl/SAML2ArtifactResolution.cpp:182
+#14 0x00007ffff7965ca1 in shibsp::ServiceProvider::doHandler (this=<optimized out>, request=...) at ServiceProvider.cpp:667
+#15 0x0000000000404aac in main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:462
+#16 0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#17 0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x6cf8e0	7141600
+rbx            0x7ffff6924620	140737330169376
+rcx            0x7ffff65ee92e	140737326803246
+rdx            0x31333d4854474a11	3545244712531610129
+rsi            0x7fffffff73a0	140737488319392
+rdi            0x9	9
+rbp            0x431	0x431
+rsp            0x7fffffff7650	0x7fffffff7650
+r8             0x31333d4854474e40	3545244712531611200
+r9             0x14	20
+r10            0x7ffff6603740	140737326888768
+r11            0x246	582
+r12            0x6cf4b0	7140528
+r13            0x31333d4854474a10	3545244712531610128
+r14            0x419	1049
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65fa27f	0x7ffff65fa27f <_int_malloc+2239>
+eflags         0x10206	[ PF IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 8489] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

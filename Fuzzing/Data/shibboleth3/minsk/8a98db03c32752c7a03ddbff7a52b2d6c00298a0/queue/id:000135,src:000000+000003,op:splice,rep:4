@@ -1,0 +1,1 @@
+REQUEST_URI=úp://schemas.xmlsoap.org/soap/envelope/"><S:Body><S:Fault><fa_ltcode>S:Server</faultcode><faultstring>Error processing request.</faultstring></S:Fault></S:Body></SEnvelope>

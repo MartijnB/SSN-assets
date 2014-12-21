@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:lope xmlns:S="http://schemas.xmlsoap.org/soap/eody><S:Fault><faultcode>S:Server</faultcode><faultstring>Error processing request.</faultstring></S:Faulnvelope/"><S:Body><S:Fault><faultcode>S:Server</faultcode><faultst>Error proceg reg request.</tstrtstrtstring></S/S:Body>lopelope>

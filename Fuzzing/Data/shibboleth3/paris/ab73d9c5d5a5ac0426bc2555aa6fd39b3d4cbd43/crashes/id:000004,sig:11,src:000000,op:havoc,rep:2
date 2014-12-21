@@ -1,0 +1,4 @@
+REQUEST_URI=/Uhibboleth.sso/Status
+CONTENT_TYPE=x-www-foru-urlencoded
+
+test

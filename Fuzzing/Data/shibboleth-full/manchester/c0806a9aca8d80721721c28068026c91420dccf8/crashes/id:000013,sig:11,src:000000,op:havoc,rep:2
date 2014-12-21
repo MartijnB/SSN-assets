@@ -1,0 +1,4 @@
+REQUEST[URI=/Shibboleth.sso/Status
+CONTENT_TYPE=ø-www-form-urlencoded
+
+test

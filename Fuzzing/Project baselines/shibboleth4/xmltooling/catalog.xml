@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <system systemId="http://www.w3.org/XML/1998/namespace" uri="../xmltooling/xml.xsd"/>
+    <system systemId="http://www.w3.org/2001/04/xmlenc#" uri="../xmltooling/xenc-schema.xsd"/>
+    <system systemId="http://www.w3.org/2009/xmlenc11#" uri="../xmltooling/xenc11-schema.xsd"/>
+    <system systemId="http://www.w3.org/2000/09/xmldsig#" uri="../xmltooling/xmldsig-core-schema.xsd"/>
+    <system systemId="http://www.w3.org/2009/xmldsig11#" uri="../xmltooling/xmldsig11-schema.xsd"/>
+    <system systemId="http://www.opensaml.org/xmltooling" uri="../xmltooling/xmltooling.xsd"/>
+    <system systemId="http://schemas.xmlsoap.org/soap/envelope/" uri="../xmltooling/soap-envelope.xsd"/>
+</catalog>

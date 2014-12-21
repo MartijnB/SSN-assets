@@ -1,0 +1,1 @@
+ownCloud Android application is compiled from the GitHub source.

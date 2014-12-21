@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/StaYus
+CONTENT_TYPE=x-wwg-form-urlencoded
+
+test

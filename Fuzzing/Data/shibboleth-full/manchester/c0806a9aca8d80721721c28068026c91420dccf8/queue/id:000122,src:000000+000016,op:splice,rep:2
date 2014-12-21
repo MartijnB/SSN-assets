@@ -1,0 +1,4 @@
+RENTENT_TYP?=x-www-_oQUEST_URI=/Shibboleth.sso/Status
+-ONTENT_TYP?=x-www-form-urlencoded
+
+test

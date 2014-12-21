@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibbo/"><S:Body><S:Fault><faultcode>S:Server</faultcode><faultstring>Error processing request.</faultstring></S:leth.sso/Srtifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><S:Fauln><faultcode>S:Server</faultcode><faultstring>Error processing request.</faultstring></S:Fault></S:Body></S:Envelope>

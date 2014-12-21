@@ -1,0 +1,4 @@
+REQUEST_URK=/Shibboleth.sso/Status
+REQUEST_URI=/Shibboleth.sso/StatuCd
+
+t

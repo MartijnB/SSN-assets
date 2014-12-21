@@ -1,0 +1,45 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 2898)]
+[New Thread 0x7ffff523f700 (LWP 2902)]
+
+Program received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 0x7ffff523f700 (LWP 2902)]
+0x0000000000000002 in ?? ()
+#0  0x0000000000000002 in ?? ()
+#1  0x00007ffff6368b5c in log4shib::Category::info(char const*, ...) () from ./libs/liblog4shib.so.1
+#2  0x00007ffff7ac6b9b in (anonymous namespace)::SSCache::cleanup_fn (p=0x7b7060) at impl/StorageServiceSessionCache.cpp:1866
+#3  0x00007ffff6932062 in start_thread (arg=0x7ffff523f700) at pthread_create.c:312
+#4  0x00007ffff6665bfd in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:111
+Value can't be converted to integer.
+rax            0x736140	7561536
+rbx            0x6933d0	6894544
+rcx            0x384	900
+rdx            0x384	900
+rsi            0x258	600
+rdi            0x6933d0	6894544
+rbp            0x7ffff7b9bad0	0x7ffff7b9bad0
+rsp            0x7ffff523ed98	0x7ffff523ed98
+r8             0x7fffe80008c8	140737085704392
+r9             0x0	0
+r10            0x4022	16418
+r11            0x217	535
+r12            0x1	1
+r13            0x7ffff7ffd060	140737354125408
+r14            0x7b7060	8089696
+r15            0x7fffe80008c0	140737085704384
+rip            0x2	0x2
+eflags         0x10246	[ PF ZF IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 2854] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

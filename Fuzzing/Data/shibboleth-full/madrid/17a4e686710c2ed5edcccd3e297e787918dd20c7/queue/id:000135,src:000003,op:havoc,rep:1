@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><S:Fault><fau""""""""""""""""""""""""""""""""""""ing>Error processing request.</faultstring></S:Fault></S:Body></S:Envelope>

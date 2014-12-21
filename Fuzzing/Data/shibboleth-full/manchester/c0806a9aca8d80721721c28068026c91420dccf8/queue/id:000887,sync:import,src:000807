@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&9&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=textxml
+
+<S:Envelope xmlns:S="http:/orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Server</faultcode>_URI=/Shibbolerh_URI=/Shibbolerh_URI=/Shibbolerh_URI=/Shibbolerh

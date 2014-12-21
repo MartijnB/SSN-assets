@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Status
+CONTERT_TYPE=x-www-forlencoded
+
+test

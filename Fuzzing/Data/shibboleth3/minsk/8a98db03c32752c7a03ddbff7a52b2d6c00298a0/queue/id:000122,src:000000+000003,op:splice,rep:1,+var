@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envevelope/"aultcode><faudy></S:Edy></S:Edy></S:Edy></S:Edy></S:Edy></S:Enve</S:Enve</S:Enve</S:Envelope>

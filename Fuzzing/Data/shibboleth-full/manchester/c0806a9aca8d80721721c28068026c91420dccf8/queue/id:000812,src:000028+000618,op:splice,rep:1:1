@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schesoap/envelo><S:Body><S:Fault><faultcode>S:Serverdy></S:EnvST_URIdy></S:EnvST_URIdy></S:EnvST_URIdy></S:EnvST_URI

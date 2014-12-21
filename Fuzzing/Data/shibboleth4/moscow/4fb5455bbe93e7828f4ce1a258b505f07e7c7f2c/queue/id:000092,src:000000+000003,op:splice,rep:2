@@ -1,0 +1,7 @@
+REQUEST_URI=/Shibboleth.sso/Srtifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S:EnveST_URI=/Shibboleth.sso/Srtifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope lope>

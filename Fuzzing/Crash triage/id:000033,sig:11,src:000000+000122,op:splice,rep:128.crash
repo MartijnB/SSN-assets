@@ -1,0 +1,50 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 29137)]
+[New Thread 0x7ffff523f700 (LWP 29139)]
+
+Program received signal SIGSEGV, Segmentation fault.
+_int_malloc (av=0x7ffff6924620 <main_arena>, bytes=596) at malloc.c:3646
+3646	malloc.c: No such file or directory.
+#0  _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=596) at malloc.c:3646
+#1  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=596) at malloc.c:2858
+#2  0x00007ffff6dbc2e8 in operator new(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#3  0x00007ffff6e1be99 in std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#4  0x00007ffff6e1d815 in char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#5  0x00007ffff6e1dc46 in std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007ffff7965460 in shibsp::ServiceProvider::doHandler (this=<optimized out>, request=...) at ServiceProvider.cpp:611
+#7  0x0000000000404aac in main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:462
+#8  0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#9  0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x7ffff6003936	140737320597814
+rbx            0x7ffff6924620	140737330169376
+rcx            0x36343d4854474e45	3905814157697961541
+rdx            0x7ffff69249d8	140737330170328
+rsi            0x2800010	41943056
+rdi            0x1	1
+rbp            0x260	0x260
+rsp            0x7fffffffbe10	0x7fffffffbe10
+r8             0x36343d4854474e40	3905814157697961536
+r9             0xfffffffffffffbcf	-1073
+r10            0xfffffffffffffbbf	-1089
+r11            0x7ffff6e1cc50	140737335381072
+r12            0x684c60	6835296
+r13            0x36343d4854474be0	3905814157697960928
+r14            0x254	596
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65fa174	0x7ffff65fa174 <_int_malloc+1972>
+eflags         0x10202	[ IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 29107] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

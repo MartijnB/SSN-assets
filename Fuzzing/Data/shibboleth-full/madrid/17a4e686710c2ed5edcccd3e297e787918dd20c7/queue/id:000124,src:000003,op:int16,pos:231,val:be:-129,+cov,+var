@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.orgvelope/"><S:Bodyt><faultcode>S:Server</faultcode><faults><faultstringrocessint.<essint.</fault.</faul</ÿFaul</ÿFauldy></S:Edy></S:Envelope>

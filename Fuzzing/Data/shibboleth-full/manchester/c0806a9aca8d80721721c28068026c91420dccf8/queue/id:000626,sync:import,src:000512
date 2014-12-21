@@ -1,0 +1,12 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONT:Bifact/SOAP
+CONTENT_TYPE=text/xml">text/x<S:Fa/">ody>e/">odˇaultstring></S:ult></S:BoS:Body><S:Fault><fa><faultce/">e/"><S:Bodˇault∏tring></S:Fault></S:Body><S:Failt><faultcode>S:r</faultcode><faultstring>ring>Erequest.</faults</S:Body></S:Envelopeing>Error pelopeing>Error pt.</faultstping>velope/"><S:Bodyvelope/"><S:Body><S:F/envelope/"ng></S:Fault></S<faultcode>S:Sepver</faultcode><ver</faultcode><faultstring>Errouest.</faultRI=/Shibb:Fault><faultcode>S:Sepver</faultcode><faultstring>Error pr.</faultRI=/Shib_TYPE=text/xml
+
+s:S="http://schemas.xmlsoap.org/mas.xmlsoap.org/soap/envelope/"><S:Bodˇault∏tring></S:Fault></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</faultcode><faultstring>ring>Error processieg request.</faultstring></S:Fault></S:Body></S:Envelopeing>Error processieg request.</faultstring></S.Faulr></S:Bttp://sch/smap/envelope/"><S:Body><S:F/envelope/"><S:Bodˇaultstring></S:Fault><S:Body><S:Fault>/S:ult></S:Body><S:Fault><faultcode>S:SepvetRI=/Shibboleth.sso/Arti
+<S:Envelope xmlns:S="http://sch><S:Bodˇault∏tring></S:Fault></S:Body><S:Failt><faultcode>S:Server⁄/faultcode><faultst:Sepver</faultcode><faultstring>ring>Error processieg request.</faultstring></S:Fault></S:Body></S:Envelopeing>Error processieg request.</faultstping></S:Fault></S:Bttp://sch/smap/envelope/"><S:Body><S:F/envelope/"><S:Bodˇaultstring></S:Fault></S:Body><S:Fault><faultcode>S:Sepver</faultcode><faultstring>Error processieg request.</faultRI=/Shibb:Fault><faultcode>S:Sepver</faultcode><faultstring>Error processieg request.<//SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Bodˇault∏tring></S:Fault></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</faultcode><faultstring>ring>Error processieg request.</faultstring></S:Fault></S:Body></S:Envelopeing>Error processieg request.</faultstring></S.Faulr></S:Bttp://sch/smap/envelope/"><S:Body><S:F/envelope/"><S:Bodˇaultstring></S:Fault><S:Body><S:Fault><faultcode>S:Sepv√r</faultcode><faultstring>Error processieg request.<//SOAP
+CONTENT_TYPE=text/xml
+
+<S:™™™<S:Failt><faultcode>S:Server</faultco_rocessieg request.</faultstring></S:Fault></S:Body></S:Envelope>rocessieg request.</faultstring></S:Fault></S:Body>lt></S:B/S:Body>ody>ody>lt><lt><lt><lt></S:B/S:B/S:Body>ody></S:</S:

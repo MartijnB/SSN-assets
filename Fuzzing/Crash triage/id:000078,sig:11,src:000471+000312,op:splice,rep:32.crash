@@ -1,0 +1,59 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 8373)]
+[New Thread 0x7ffff523f700 (LWP 8374)]
+
+Program received signal SIGABRT, Aborted.
+0x00007ffff65b53a9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+56	../nptl/sysdeps/unix/sysv/linux/raise.c: No such file or directory.
+#0  0x00007ffff65b53a9 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56
+#1  0x00007ffff65b84c8 in __GI_abort () at abort.c:89
+#2  0x00007ffff65f7ebd in __malloc_assert (assertion=assertion@entry=0x7ffff66e2a45 "(bck->bk->size & 0x4) == 0", file=file@entry=0x7ffff66e2911 "malloc.c", line=line@entry=3481, function=function@entry=0x7ffff66e2ca2 <__func__.11510> "_int_malloc") at malloc.c:290
+#3  0x00007ffff65faafe in _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=26) at malloc.c:3481
+#4  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=26) at malloc.c:2858
+#5  0x00007ffff6dbc2e8 in operator new(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007ffff6e1be99 in std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#7  0x00007ffff6e1cb0b in std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#8  0x00007ffff6e1cbb0 in std::string::reserve(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#9  0x00007ffff768c9e5 in xmltooling::URLEncoder::encode(char const*) const () from ./libs/libxmltooling-lite.so.6
+#10 0x00007ffff7b434cb in serialize (p=p@entry=0x8cab60, os=..., name_attr=name_attr@entry=false) at remoting/impl/ddf.cpp:849
+#11 0x00007ffff7b43a51 in serialize (p=<optimized out>, os=..., name_attr=name_attr@entry=true) at remoting/impl/ddf.cpp:891
+#12 0x00007ffff7b43ea6 in shibsp::operator<< (os=..., obj=...) at remoting/impl/ddf.cpp:940
+#13 0x00007ffff7b4f4b1 in shibsp::SocketListener::send (this=0x8545f8, in=...) at remoting/impl/SocketListener.cpp:302
+#14 0x00007ffff7a54108 in shibsp::SAML2ArtifactResolution::run (this=0x6ee380, request=..., isHandler=<optimized out>) at handler/impl/SAML2ArtifactResolution.cpp:182
+#15 0x00007ffff7965ca1 in shibsp::ServiceProvider::doHandler (this=<optimized out>, request=...) at ServiceProvider.cpp:667
+#16 0x0000000000404aac in main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:462
+#17 0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#18 0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x0	0
+rbx            0x7ffff6924620	140737330169376
+rcx            0xffffffffffffffff	-1
+rdx            0x6	6
+rsi            0x207a	8314
+rdi            0x207a	8314
+rbp            0x30	0x30
+rsp            0x7fffffff74f8	0x7fffffff74f8
+r8             0x7ffff7fdd740	140737353996096
+r9             0x7ffff6922be0	140737330162656
+r10            0x8	8
+r11            0x202	514
+r12            0x69b090	6926480
+r13            0x2710	10000
+r14            0x1a	26
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65b53a9	0x7ffff65b53a9 <__GI_raise+57>
+eflags         0x202	[ IF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 8314] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

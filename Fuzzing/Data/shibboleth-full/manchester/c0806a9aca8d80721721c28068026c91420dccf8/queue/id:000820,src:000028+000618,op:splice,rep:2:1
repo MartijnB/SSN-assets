@@ -1,0 +1,4 @@
+REQUEST_URI=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<SLEnvelope xmlns:S="http://schRsoap/envelo><S:Body><S:Fault><faultcode>S:Server</faultcode><faI=/Shibbolerh.ssI=/Shibbolerh.ssI=/Shibbolerh.ssI=/Shibbolerh.ss

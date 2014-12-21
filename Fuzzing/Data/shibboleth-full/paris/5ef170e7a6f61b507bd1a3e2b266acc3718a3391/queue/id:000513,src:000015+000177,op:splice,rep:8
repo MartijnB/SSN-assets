@@ -1,0 +1,18 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S"Envens:S="htvelope/"><S:Body><S:Fa/"><S:QUEST_URI=/Shibboleth.sso/Artifact/SOA></S:Fault></S:Body><S:Fault><faultcode>S:Sepver</faultcode><faultstring>Error processieg request.</faultRI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Bodÿault¸/Shibb:Fault><faultcode>S:Sepver</faultcode><faultstring>Error processieg request.</faultRI=/Shibboleth.sso/Artifact/SOAP
+ult></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</faultcode><faultstring>ring>Error processieg request.</faulVstring></S:Fault></S:Body></S:Envelopeing>Error processieg request.</faultstring></S:Fault></S:Bttp://sch/smap/envelope/"><S:Body><S:F/envelope/"><S:Bodÿaultstring></S:Fault></S:Body><S:Fault><faultcode>S:Sepver</faultcode><faulttring>Error processieg request.</faultRI=/Shiboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:En~elope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Bodÿault¸tring></S:Fault></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</faultcode><faultstring>ring>Error processieg request.</faultstring></S:Fault></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</processieg request.</faultRI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Bodÿault¸tring></S:Fault></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</faultcode><faultstring>ring>Error processieg request.</faultstring></S:Fault></S:Body></S:Envelopeing>Error processieg request.</faultstring></S:Fault></S:Bttp://sch/smap/envelope/"><S:Body><S:F/envelope/"><S:Bodÿaultstring></S:Fault></S:Body><S:Fault><faultcode>S:Sepver</faultcode><faultstring>Error processieg request.</faultRI=/Shibb:Fault><faultcode>S:Sepver</faultcode><faultstring>Error processieg request.</faultRI=/Shibboleth.sso/Artifact/SOAP
+ult></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepver</faultcode><faultstring>ring>Error processieg request.</faultstring></S:Fault></S:Body></S:Envelopeing>Error processieg request.</faultstring></S:Fault></S:Bttp://sch/smap/envelope/"><S:Body><S:F/envelope/"><S:Bodÿaultstring></S:Fault></S:Body><S:Fault><faultcode>S:Sepver</faultcode><faulttring>Error processieg request.</faultRI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Bodÿault¸tring></S:Fault></S:Body><S:Failt><faultcode>S:Server</faultcode><faultst:Sepveeing>Error processieg request.</faultstring></S:Fault></S:Body></S:Envelope>

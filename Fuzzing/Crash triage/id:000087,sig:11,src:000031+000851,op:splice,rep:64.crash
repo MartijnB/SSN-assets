@@ -1,0 +1,52 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 9541)]
+[New Thread 0x7ffff523f700 (LWP 9543)]
+
+Program received signal SIGSEGV, Segmentation fault.
+_int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1024) at malloc.c:3646
+3646	malloc.c: No such file or directory.
+#0  _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1024) at malloc.c:3646
+#1  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=1024) at malloc.c:2858
+#2  0x00007ffff6dbc2e8 in operator new(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#3  0x00007ffff6dbc399 in operator new[](unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#4  0x00007ffff6373df6 in log4shib::StringUtil::vform(char const*, __va_list_tag*) () from ./libs/liblog4shib.so.1
+#5  0x00007ffff63685bd in log4shib::Category::_logUnconditionally(int, char const*, __va_list_tag*) () from ./libs/liblog4shib.so.1
+#6  0x00007ffff6368ed0 in log4shib::Category::error(char const*, ...) () from ./libs/liblog4shib.so.1
+#7  0x00007ffff7a4a8ab in shibsp::MetadataGenerator::run (this=0x8dcf50, request=..., isHandler=<optimized out>) at handler/impl/MetadataGenerator.cpp:389
+#8  0x00007ffff7965ca1 in shibsp::ServiceProvider::doHandler (this=<optimized out>, request=...) at ServiceProvider.cpp:667
+#9  0x0000000000404aac in main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:462
+#10 0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3d8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3c8) at libc-start.c:287
+#11 0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x7ffff6003532	140737320596786
+rbx            0x7ffff6924620	140737330169376
+rcx            0x33363d4854474e45	3690204325537599045
+rdx            0x7ffff6924c88	140737330171016
+rsi            0x38000054	939524180
+rdi            0x3	3
+rbp            0x410	0x410
+rsp            0x7fffffffbab0	0x7fffffffbab0
+r8             0x33363d4854474e40	3690204325537599040
+r9             0x7ffff6924670	140737330169456
+r10            0x7fffffffbb00	140737488337664
+r11            0x7ffff6368e20	140737324158496
+r12            0x8087e0	8423392
+r13            0x33363d4854474a30	3690204325537598000
+r14            0x400	1024
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65fa174	0x7ffff65fa174 <_int_malloc+1972>
+eflags         0x10206	[ PF IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 9517] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

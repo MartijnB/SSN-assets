@@ -1,0 +1,14 @@
+REQUEST_URI=/Shibboleth.sso/qtatus
+CONTENT_TYPE=x-w&&&&&&&&&&&&&&&&&&&&&;&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Ser&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&€&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Server</faultcode><fsso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envelope xmlns:S="http://schemas.xmlsoap.orgRsoap/envelo><S:Body><S:Fault><faultcode>S:Server</faultcode><fauring>Erg>Eret.</t.</faultstrdy><dy></S:EnvST_URI=/Shibbolerh.sso/StatURI=/Shibbold
+
+t
+

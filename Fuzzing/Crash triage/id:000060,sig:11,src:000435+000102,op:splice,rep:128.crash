@@ -1,0 +1,53 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 866)]
+[New Thread 0x7ffff523f700 (LWP 870)]
+
+Program received signal SIGSEGV, Segmentation fault.
+_int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1915) at malloc.c:3684
+3684	malloc.c: No such file or directory.
+#0  _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1915) at malloc.c:3684
+#1  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=1915) at malloc.c:2858
+#2  0x00007ffff6629bbf in __tzfile_read (file=<optimized out>, file@entry=0x7ffff66e2f8a "/etc/localtime", extra=extra@entry=0, extrap=extrap@entry=0x0) at tzfile.c:291
+#3  0x00007ffff66291f0 in tzset_internal (always=<optimized out>, explicit=explicit@entry=1) at tzset.c:444
+#4  0x00007ffff6629513 in __tz_convert (timer=0x7fffffffbe88, use_localtime=use_localtime@entry=1, tp=tp@entry=0x7fffffffbde0) at tzset.c:629
+#5  0x00007ffff6627b1d in __localtime_r (t=<optimized out>, tp=tp@entry=0x7fffffffbde0) at localtime.c:32
+#6  0x00007ffff6627ab0 in ctime_r (t=<optimized out>, buf=0x7fffffffbea0 "P\300\377\377\377\177") at ctime_r.c:28
+#7  0x00007ffff7b8fb93 in shibsp::TemplateParameters::setPropertySet (this=this@entry=0x7fffffffc050, props=props@entry=0x0) at util/TemplateParameters.cpp:59
+#8  0x00007ffff7b927b1 in shibsp::TemplateParameters::TemplateParameters (this=0x7fffffffc050, e=0x8dd860, props=0x0, session=0x0) at util/TemplateParameters.cpp:44
+#9  0x00007ffff7967482 in shibsp::ServiceProvider::doHandler (this=<optimized out>, request=...) at ServiceProvider.cpp:684
+#10 0x0000000000404aac in main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:462
+#11 0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#12 0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x6cbf50	7126864
+rbx            0x7ffff6924620	140737330169376
+rcx            0x7ffff65ee92e	140737326803246
+rdx            0x30363d48544746b1	3474031543423813297
+rsi            0x7fffffffb8d0	140737488337104
+rdi            0xa	10
+rbp            0x791	0x791
+rsp            0x7fffffffbb80	0x7fffffffbb80
+r8             0x30363d4854474e40	3474031543423815232
+r9             0x14	20
+r10            0x7ffff6603740	140737326888768
+r11            0x246	582
+r12            0x6cb7c0	7124928
+r13            0x30363d48544746b0	3474031543423813296
+r14            0x77b	1915
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65fa27f	0x7ffff65fa27f <_int_malloc+2239>
+eflags         0x10206	[ PF IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 814] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

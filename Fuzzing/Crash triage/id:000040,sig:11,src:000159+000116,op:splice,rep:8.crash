@@ -1,0 +1,45 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 11709)]
+[New Thread 0x7ffff523f700 (LWP 11711)]
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff65fc214 in __GI___libc_free (mem=0x806b80) at malloc.c:2905
+2905	malloc.c: No such file or directory.
+#0  0x00007ffff65fc214 in __GI___libc_free (mem=0x806b80) at malloc.c:2905
+#1  0x00000000004055c8 in ~auto_arrayptr (this=<synthetic pointer>, __in_chrg=<optimized out>) at /usr/include/xmltooling/unicode.h:238
+#2  main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:456
+#3  0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#4  0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x0	0
+rbx            0x7fffffffc1a0	140737488339360
+rcx            0x6e7ef0	7241456
+rdx            0x7ffff6924638	140737330169400
+rsi            0x806b70	8416112
+rdi            0x7ffff6924620	140737330169376
+rbp            0x806b80	0x806b80
+rsp            0x7fffffffc118	0x7fffffffc118
+r8             0x3	3
+r9             0x50202e726f727245	5773665791319896645
+r10            0x7fffffffbee0	140737488338656
+r11            0x7ffff6dba5d0	140737334978000
+r12            0x7ffff7067660	140737337783904
+r13            0x2	2
+r14            0x7fffffffc13d	140737488339261
+r15            0x413871	4274289
+rip            0x7ffff65fc214	0x7ffff65fc214 <__GI___libc_free+52>
+eflags         0x10246	[ PF ZF IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 11673] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

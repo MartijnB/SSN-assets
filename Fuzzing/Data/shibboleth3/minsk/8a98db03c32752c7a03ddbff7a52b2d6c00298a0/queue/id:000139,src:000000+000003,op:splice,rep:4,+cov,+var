@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPDKtext/xml
+
+<S:Envelope xmlns:S="Jttp://sch/soap/envelope/"><S:B111111111111ope>111111111111ope>111111111111ope>111111111111ope>

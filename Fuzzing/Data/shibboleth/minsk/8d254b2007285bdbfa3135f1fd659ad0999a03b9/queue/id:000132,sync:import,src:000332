@@ -1,0 +1,13 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPg=text/QUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPg=text/xml
+
+<S:En`elope xmlns:S="http://lchemaó.xmlsoa.orgsoap/envelope/"><S:Bt><faultco.sso/Artifact/SOAP
+CONTENT_TYPg=text/xml
+
+<S:Envelope xmlns:S="http://lchemas.xmlsoa.org/soap/envelope/"><Sÿdy><S:8ade>S:Server</faultcode><faultstring>Error(xml
+
+<S:Envelope vmlns:S="http://lchemaó.xmlsoa.org/soap/envelope/"><S:Body><h:Fault]<faultco.sso/Artifact/SOAP
+CONTENT_TYPg=text/xml
+
+<S:Envelope xmlns:S="http://lchemas.xmlsoa.org/soap/envelope/"><S:Body><S:Fade>S:Server</faultcode><faultstring>Error(processing request.</faultstring></S:Fault></S:Body></S:Envelope>

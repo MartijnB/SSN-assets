@@ -1,0 +1,4 @@
+REQUESTÿÿÿ=/Shibboleth.sso/Status
+CONTENT_TYPE=x-www-forlencoded
+
+test

@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envens:Stp://schemas.xmlsoap.orgp/envelope/"><S:Body><S:t><fa</faltstringltstltstrocerocessinssinrocet.<et.<essint.<lopelope>

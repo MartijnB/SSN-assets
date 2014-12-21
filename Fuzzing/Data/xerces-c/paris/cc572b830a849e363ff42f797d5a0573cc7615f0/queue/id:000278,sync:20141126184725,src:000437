@@ -1,0 +1,2 @@
+<samlp:Response xmlns:samlp="ura1"/>
+        <ds:Reference URI="#CORTO72da4b58aecb0a72ad7be90ee9e9e07795fd8a17"><ds:Transforms><l:AttributeStatement></saml:Assertion></samlp:Respon

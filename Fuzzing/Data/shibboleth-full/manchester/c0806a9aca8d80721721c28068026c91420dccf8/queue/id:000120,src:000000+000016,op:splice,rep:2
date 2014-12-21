@@ -1,0 +1,7 @@
+REQUEST_URE=/Shibboleth.sso/Status
+REQUEST_URE=/Shibboleth.sso/Status
+-ONTENT_TYP?=x-www-form-urlencoded
+
+test-ONTENT_TYP?=x-www-form-urlencoded
+
+test

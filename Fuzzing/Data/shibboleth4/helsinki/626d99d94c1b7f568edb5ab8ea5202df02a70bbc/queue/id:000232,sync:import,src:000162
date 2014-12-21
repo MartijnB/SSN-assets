@@ -1,0 +1,4 @@
+REQUEST_URI=/Shibboleth.sso/Artifact/SOAP
+CONTENT_TYPE=text/xml
+
+<S:Envens:S=&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"http://sch/swap/envel[pe/"><S:BMCIgSXNzdWVJbng0IFZlcnÿpb249IjIuMCIgSXNzdWVJbng0IFZlcnÿpb249IjIuMCIgSXNzdWVJbng0

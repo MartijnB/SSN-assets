@@ -1,0 +1,53 @@
+warning: Could not load shared library symbols for linux-vdso.so.1.
+Do you need "set solib-search-path" or "set sysroot"?
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff5a40700 (LWP 22737)]
+[New Thread 0x7ffff523f700 (LWP 22738)]
+
+Program received signal SIGSEGV, Segmentation fault.
+_int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1049) at malloc.c:3646
+3646	malloc.c: No such file or directory.
+#0  _int_malloc (av=0x7ffff6924620 <main_arena>, bytes=1049) at malloc.c:3646
+#1  0x00007ffff65fbe20 in __GI___libc_malloc (bytes=1049) at malloc.c:2858
+#2  0x00007ffff6dbc2e8 in operator new(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#3  0x00007ffff6e1be99 in std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#4  0x00007ffff6e1cb0b in std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#5  0x00007ffff6e1cbb0 in std::string::reserve(unsigned long) () from /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007ffff793a9d3 in push_back (__c=-63 '\301', this=0x7fffffffc1e0) at /usr/include/c++/4.8/bits/basic_string.h:1056
+#7  operator+= (__c=-63 '\301', this=0x7fffffffc1e0) at /usr/include/c++/4.8/bits/basic_string.h:952
+#8  shibsp::AbstractSPRequest::setRequestURI (this=0x7fffffffc1a0, uri=0x6a4ec4 "\301\301hsk/Stetus/_hius%Cethsk/Stetus%Chsk/StetL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI2VudmVsb3BlZC1zaWduYXR1cmUiLz48ZHM6VHJhbnNmb3JtIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIi8%2B"...) at AbstractSPRequest.cpp:181
+#9  0x0000000000404a98 in ShibTargetFCGI (port=443, hostname=<optimized out>, scheme=<optimized out>, post_data=0x805730 ' ' <repeats 51 times>, "RTBNRFV3TlRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBS3RoTURiQjBqS0hlZlB6bVJ1OXQyaDdpTFA0d0FYcjQyYkhwanpURWs2Z3R0SEZiNGwvaEZpejFZQkk4O"..., req=0x7fffffffc150, this=0x7fffffffc1a0, __in_chrg=<optimized out>, __vtt_parm=<optimized out>) at shibresponder.cpp:125
+#10 main (argc=<optimized out>, argv=<optimized out>) at shibresponder.cpp:460
+#11 0x00007ffff65a1b45 in __libc_start_main (main=0x403f50 <main>, argc=2, argv=0x7fffffffe3e8, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffe3d8) at libc-start.c:287
+#12 0x000000000040621f in _start ()
+Value can't be converted to integer.
+rax            0x7ffff6003738	140737320597304
+rbx            0x7ffff6924620	140737330169376
+rcx            0x34343d4854474e45	3761698969622105669
+rdx            0x7ffff6924c78	140737330171000
+rsi            0x3005000a	805634058
+rdi            0x3	3
+rbp            0x430	0x430
+rsp            0x7fffffffbf90	0x7fffffffbf90
+r8             0x34343d4854474e40	3761698969622105664
+r9             0x7ffff6924670	140737330169456
+r10            0x1d060	118880
+r11            0x7ffff65ae730	140737326540592
+r12            0x69a840	6924352
+r13            0x34343d4854474a10	3761698969622104592
+r14            0x419	1049
+r15            0x7ffff6924678	140737330169464
+rip            0x7ffff65fa174	0x7ffff65fa174 <_int_malloc+1972>
+eflags         0x10202	[ IF RF ]
+cs             0x33	51
+ss             0x2b	43
+ds             0x0	0
+es             0x0	0
+fs             0x0	0
+gs             0x0	0
+A debugging session is active.
+
+	Inferior 1 [process 22712] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
